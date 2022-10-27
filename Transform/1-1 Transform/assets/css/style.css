@@ -1,0 +1,26 @@
+section {
+    height: 500px;
+    width: 500px;
+    padding-top: 10em;
+    padding-left: 10em;
+}
+
+
+div {
+
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+
+section div:hover {
+    transform: rotate(90deg);
+    transform-origin: 10% 90%;
+    transition-duration: 1s;
+    height: 150px;
+    width: 150px;
+
+}
+

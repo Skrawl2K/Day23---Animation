@@ -1,0 +1,65 @@
+.grid-container {
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    gap: 30px;
+}
+
+
+div {
+    height: 50px;
+    width: 90px;
+}
+
+.grid1 {
+    background-color: red;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.grid2 {
+    background-color: rgb(4, 0, 255);
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.grid3 {
+    background-color: rgb(4, 255, 0);
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.grid4 {
+    background-color: rgb(204, 0, 255);
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.grid5 {
+    background-color: rgb(255, 242, 0);
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.grid6 {
+    background-color: red;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.grid1:hover {
+    transition: linear;
+    transform: translate(10px 10px);
+}
+
+.grid2:hover {}
+
+.grid3:hover {}
+
+.grid4:hover {}
+
+.grid5:hover {}
+
+.grid6:hover {}
